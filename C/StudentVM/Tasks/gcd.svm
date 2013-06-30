@@ -1,0 +1,17 @@
+	ldc 2330
+	ldc 3770
+	st 2
+	st 1
+
+start:
+
+	ld 1
+	ld 2
+	mod
+	ld 2
+	st 1
+	st 2
+	ld 2
+	br start
+	ld 1
+	hlt
